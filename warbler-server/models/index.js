@@ -8,3 +8,5 @@ mongoose.connect('mongodb://localhost/warbler', {
   useCreateIndex: true,
   useFindAndModify: false,
 });
+
+module.exports.User = require('./user');
